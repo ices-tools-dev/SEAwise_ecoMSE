@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# SOS-FISK    
+
+<!-- badges: start -->
+<!-- badges: end -->
+This repository includes the development package smsRdevel to estimate natural mortalities for the SOS-FISK and MERTOR project
+
+## Installation
+
+You can install the development version of smsR as
+
+``` {r, eval= FALSE}
+remotes::install_github("https://github.com/nissandjac/SOS-FISK", dependencies = TRUE)
+```
+
+## Using the model
+

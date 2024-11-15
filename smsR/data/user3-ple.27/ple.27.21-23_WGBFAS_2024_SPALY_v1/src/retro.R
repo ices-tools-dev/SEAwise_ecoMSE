@@ -1,0 +1,5 @@
+library(stockassessment)
+load("run/model.RData")
+RETRO<-retro(fit, year=5)
+rho <- mohn(RETRO)
+save(RETRO, rho, file="run/retro.RData")
